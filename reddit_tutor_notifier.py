@@ -5,14 +5,14 @@ from datetime import datetime, timedelta, timezone
 import time
 
 REDDIT_CONFIG = {
-    'client_id': 'N3D-dSxXPXmTR9fZuTduhA',
-    'client_secret':'_N6Kuk9b7u3E6r0ndWaRojI-eMLiAw',
-    'user_agent':'windows:reddit_notifier (by me)'
+    'client_id': '',
+    'client_secret':'',
+    'user_agent':''   #codes for reddit
 }
 
 TELEGRAM_CONFIG = {
-    'token':'8151112845:AAEJ2QvIpUVSlRMD8d4vHyJGmv1FEqXaOzQ',
-    'chat_id':'684955649'
+    'token':'',
+    'chat_id':'' #codes for chat and telegram
 }
 
 SEARCH_CONFIG = {
@@ -99,6 +99,7 @@ if __name__ == "__main__":
     main()
     
     
+
 
 
 
